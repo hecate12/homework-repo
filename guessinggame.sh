@@ -3,7 +3,7 @@ answ=0
 function smth {
 	actual=$(ls -l | grep "^-" | wc -l)
 }
-smth
+
 while [[ $answ -ne $actual ]]
 do
 	echo "Guess the number of files in the current directory"
